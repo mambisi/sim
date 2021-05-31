@@ -1,7 +1,7 @@
 use notus::nutos::Notus;
 
 fn main() {
-    let n = 2_000_000;
+    let n = 10_000_000;
     let notus = Notus::temp("./temp_dir").unwrap();
     for i in 0..n {
         if i % 100_000 == 0 {
